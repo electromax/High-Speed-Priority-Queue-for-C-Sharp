@@ -40,9 +40,9 @@ queue.Enqueue(myNode1, 10);
 MyNode myNode2 = new MyNode("Bob");
 queue.Enqueue(myNode2, 5);
 
-// Later ...
+// Later...
 MyNode nextNode = queue.Dequeue();
 Console.WriteLine(nextNode.Name); // Bob
 nextNode = queue.Dequeue();
 Console.WriteLine(nextNode.Name); // Alice
-```csharp
+```
