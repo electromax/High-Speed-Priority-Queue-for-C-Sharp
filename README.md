@@ -3,7 +3,7 @@
 ### Features ###
 * Faster (for path-finding, at least) than any other C# priority queue out there!
 * Easy to use
-* Configurable priority type (numbers, dates, strings, whatever IComparable!)
+* **Configurable priority type** (numbers, dates, strings, whatever IComparable!) - in comparison to the BlueRaja's project where priorities must be floating-point numbers (accurate as of October 2016, when my Pull request was rejected; you can check yourself how BlueRaja is doing now)
 * No dependencies on third-party libraries
 * Free for both personal and commercial use
 * Implements `IEnumerable<T>` for LINQ support!
